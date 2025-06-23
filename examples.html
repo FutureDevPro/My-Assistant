@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Assistant – Example Commands</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+      color: #2c3e50;
+    }
+
+    header {
+      background: #4b79a1;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .intent-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+    }
+
+    .intent-title {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #4b79a1;
+      border-bottom: 2px solid #e1ecf4;
+      padding-bottom: 4px;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .intent-title {
+        font-size: 18px;
+      }
+
+      li {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Example Voice Commands</h1>
+    <p>Try saying any of the following to your assistant</p>
+  </header>
+
+  <div class="container">
+    
+    <div class="intent-card">
+      <div class="intent-title">Greetings</div>
+      <ul>
+        <li>Hello</li>
+        <li>Hi</li>
+        <li>Good morning</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Introduction</div>
+      <ul>
+        <li>My name is Udit</li>
+        <li>I am John</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Wellbeing</div>
+      <ul>
+        <li>How are you?</li>
+        <li>How’s it going?</li>
+        <li>What’s up?</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Gratitude</div>
+      <ul>
+        <li>Thank you</li>
+        <li>Thanks a lot</li>
+        <li>I appreciate it</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Farewell</div>
+      <ul>
+        <li>Goodbye</li>
+        <li>Bye</li>
+        <li>See you later</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Examples</div>
+      <ul>
+        <li>Show me some examples</li>
+        <li>I don't know what to say</li>
+        <li>Give me some ideas</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Search</div>
+      <ul>
+        <li>Search for AI news</li>
+        <li>Find Tesla cars</li>
+        <li>Look up ChatGPT</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Translate</div>
+      <ul>
+        <li>Translate hello to Hindi</li>
+        <li>How to say "thank you" in French</li>
+        <li>Say goodbye in Japanese</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">YouTube</div>
+      <ul>
+        <li>Play lo-fi music</li>
+        <li>Open YouTube</li>
+        <li>Search for cat videos</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Shopping</div>
+      <ul>
+        <li>Buy a phone</li>
+        <li>Order shoes online</li>
+        <li>Shop for groceries</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Weather</div>
+      <ul>
+        <li>What's the weather today?</li>
+        <li>Will it rain tomorrow?</li>
+        <li>Temperature outside</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Location</div>
+      <ul>
+        <li>Where am I?</li>
+        <li>Show my location</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Restaurants</div>
+      <ul>
+        <li>Find restaurants near me</li>
+        <li>Places to eat nearby</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Maps</div>
+      <ul>
+        <li>Navigate to home</li>
+        <li>Directions to the nearest ATM</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Time</div>
+      <ul>
+        <li>What time is it?</li>
+        <li>Current time in London</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">News</div>
+      <ul>
+        <li>Latest headlines</li>
+        <li>News about AI</li>
+        <li>Show me sports news</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Quotes</div>
+      <ul>
+        <li>Tell me an inspirational quote</li>
+        <li>Motivational quote of the day</li>
+      </ul>
+    </div>
+
+    <div class="intent-card">
+      <div class="intent-title">Stop</div>
+      <ul>
+        <li>Stop</li>
+        <li>Exit</li>
+        <li>Quit the assistant</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
