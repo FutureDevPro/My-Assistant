@@ -1,7 +1,11 @@
 🎙️ Voice-Activated Virtual Assistant
 A lightweight, fully customizable voice assistant built using cutting-edge speech and language models. Designed for hands-free interaction and fast response time, this assistant listens for a wake word, understands spoken commands, and performs various web-based actions or speaks responses back.
 
+
+
+
 🚀 Features
+
 🔊 Voice Wake Word Detection — Say "hello" to activate the assistant.
 
 🧠 Intent Recognition — Uses sentence embeddings to understand your command.
@@ -16,7 +20,12 @@ A lightweight, fully customizable voice assistant built using cutting-edge speec
 
 🖥️ Auto-Startup Ready — Built to run automatically after system boot.
 
+
+
+
+
 🛠️ Tech Stack
+
 OpenAI Whisper – Speech-to-text
 
 Vosk – Offline wake word recognition
@@ -29,7 +38,12 @@ pygame, sounddevice, soundfile, librosa – Audio recording/playback
 
 webbrowser, win11toast – Web and desktop notification integrations
 
+
+
+
+
 📦 Installation
+
 Clone the repo:
 
 bash
@@ -53,6 +67,7 @@ Copy
 Edit
 python app.py
 🧠 Supported Intents
+
 Examples of commands you can try:
 
 Search: “Search for machine learning on Google”
@@ -66,6 +81,7 @@ Nearby: “Find nearest petrol pump”
 Translate: “Translate hello to Spanish”
 
 Time, News, Quotes, and more!
+
 
 🛠️ Customizing Intents
 To add new intents or actions:
@@ -82,6 +98,8 @@ Edit
 "BookFlight": ["book flight", "find flights", "plane tickets"],
 
 
+
+
+
 📄 License
 MIT License
-
